@@ -22,11 +22,11 @@ def semantic_chunks(text):
         if vis[i]:
             continue
         chunks.append([i])
-        current_chunk_vectors = embeddings[chunks[-1]]
-        centroid = np.mean(current_chunk_vectors, axis=0)
         for j in range(i+1, len(sentences)):
             if vis[j]:
                 continue
+            current_chunk_vectors = embeddings[chunks[-1]]
+            centroid = np.mean(current_chunk_vectors, axis=0)
             sim = cosine_similarity(
                 [embeddings[j]],
                 [centroid]
