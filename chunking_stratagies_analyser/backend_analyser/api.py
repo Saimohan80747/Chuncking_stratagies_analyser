@@ -1,6 +1,5 @@
-from fastapi import FastAPI
 from pydantic import BaseModel
-from fastapi import UploadFile, File
+from fastapi import FastAPI,UploadFile, File
 
 from chunking import (
     fixed_chunks,
@@ -10,7 +9,7 @@ from chunking import (
     semantic_chunks
 )
 from file_reader import extract_text
-from first_ai_model.tokeniser import tokenise_text
+# from first_ai_model.tokeniser import tokenise_text
 
 app = FastAPI(
     title="Chunking API",
