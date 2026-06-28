@@ -91,7 +91,10 @@ def recursive_chunks(text, chunk_size=5):
             chunks.append(para)
             continue
         else:
-            chunks+=sentence_chunks(para);
+            chunks+=semantic_chunks(para)
+    
+    if(len(chunks)==1):
+        return overlap_chunks(chunks[0], chunk_size, 1)
 
     return chunks
 
