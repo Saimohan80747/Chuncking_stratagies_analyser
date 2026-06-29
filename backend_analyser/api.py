@@ -9,6 +9,7 @@ from chunking import (
     semantic_chunks
 )
 from file_reader import extract_text
+from classes import ChunkRequest,TokenRequest,PipeLine
 
 app = FastAPI(
     title="Chunking API",
@@ -92,6 +93,12 @@ def chunk_text(data: ChunkRequest):
         "chunks": chunks
     }
 
+@app.post("/pipeline"):
+def pipeline(file:UploadFile=File(...):
+   pipeline=PipeLine([upload_file,chunk_text])
+   result=pipeline.run(file)
+   return result
+    
 # @app.post("/tokenize")
 # def tokenize_text(data: TokenRequest):
 #     doc = tokenise_text(data.text)
