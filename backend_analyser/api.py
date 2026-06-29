@@ -17,17 +17,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-
-
-class ChunkRequest(BaseModel):
-    text: str
-    strategy: str
-    chunk_size: int = 100
-    overlap_size: int = 20
-
-class TokenRequest(BaseModel):
-    text: str
-
 @app.get("/")
 def home():
     return {
