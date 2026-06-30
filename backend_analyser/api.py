@@ -87,7 +87,12 @@ def pipeline(file:UploadFile=File(...):
    pipeline=PipeLine([upload_file,chunk_text])
    result=pipeline.run(file)
    return result
-    
+
+@app.post("/prompt")
+def prompt(text: str):
+    pipeline = Pipeline(steps=[recursive_chunks,embedding_chunks])
+    result = pipeline.run({"text": text})
+    return result
 # @app.post("/tokenize")
 # def tokenize_text(data: TokenRequest):
 #     doc = tokenise_text(data.text)
