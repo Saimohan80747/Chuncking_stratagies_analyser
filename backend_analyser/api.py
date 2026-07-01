@@ -106,3 +106,4 @@ def prompt(text: str):
 #         return {"embedding": vector}
 #     except Exception as exc:
 #         return {"error": f"Failed to get embeddings: {exc}"}
+#https://mouritechpvtltd-my.sharepoint.com/:v:/r/personal/yugandarc_in_mouritech_com/Documents/Yugandar/External%20Training%20Recordings/Generative%20AI%20Training%20Recordings%20(12-May-25)/MLA%20-%20Technical%20Training_%20Generative%20AI_Session%209.mp4?csf=1&web=1&e=WQsBIN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJmOTBjMjgzZi1lYzE2LTRlMzAtYmY4NS1hMDg1MzdmYmMzOWMifX0%3D
