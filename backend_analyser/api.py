@@ -106,5 +106,3 @@ def prompt(text: str):
 #         return {"embedding": vector}
 #     except Exception as exc:
 #         return {"error": f"Failed to get embeddings: {exc}"}
-#https://mouritechpvtltd-my.sharepoint.com/:v:/r/personal/yugandarc_in_mouritech_com/Documents/Yugandar/External%20Training%20Recordings/Generative%20AI%20Training%20Recordings%20(12-May-25)/MLA%20-%20Technical%20Training_%20Generative%20AI_Session%209.mp4?csf=1&web=1&e=WQsBIN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJmOTBjMjgzZi1lYzE2LTRlMzAtYmY4NS1hMDg1MzdmYmMzOWMifX0%3D
-#https://mouritechpvtltd-my.sharepoint.com/personal/yugandarc_in_mouritech_com/_layouts/15/onedrive.aspx?e=5%3A58b558933b5346abb57018a83e4f17e8&sharingv2=true&fromShare=true&at=9&CID=537aa6fd%2Dbf47%2D48dd%2Db509%2D6fa35c5cc843&id=%2Fpersonal%2Fyugandarc%5Fin%5Fmouritech%5Fcom%2FDocuments%2FYugandar%2FExternal%20Training%20Recordings%2FGenerative%20AI%20Training%20Recordings%20%2812%2DMay%2D25%29&FolderCTID=0x01200069AD19D50EA5224AB5BEBFD16CCEFA39&view=0
