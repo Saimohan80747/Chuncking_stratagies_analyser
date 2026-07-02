@@ -16,7 +16,7 @@ def semantic_chunks(text):
 
     chunks = []
 
-    threshold = 0.7
+    threshold = 0.25
 
     for i in range(0, len(sentences)):
         if vis[i]:
