@@ -4,11 +4,10 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def semantic_chunks(text):
     sentences= sentence_chunks(text)
-
-    model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
     vis = [False] * len(sentences)
